@@ -1,0 +1,43 @@
+ body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .buttons {
+            margin: 20px 50px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        #results {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-top: 20px;
+            min-height: 200px;
+        }
+        .score {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .winner {
+            color: green;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .loser {
+            color: red;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
